@@ -74,7 +74,7 @@ along with jQuery Easy Overlay.  If not, see <http://www.gnu.org/licenses/>.
 					
 					// Restoring some CSS of OVERLAY DIV after every 'overlayout' because jquery.fadeOut method take off it
 					$("#jqueryEasyOverlayDiv").css({
-						opacity : 0.5,
+						opacity : 0.9,
 						zIndex  : overlayZIndex,
 						top     :  $this.offset().top,
 						left    : $this.offset().left,
